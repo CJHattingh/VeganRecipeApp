@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41F3B3728E5C0DE0038D04F /* CoreDataRecipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F3B3528E5C0DE0038D04F /* CoreDataRecipe+CoreDataClass.swift */; };
+		B41F3B3828E5C0DE0038D04F /* CoreDataRecipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F3B3628E5C0DE0038D04F /* CoreDataRecipe+CoreDataProperties.swift */; };
+		B438EFB028ABAA8B00119A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFAF28ABAA8B00119A6B /* AppDelegate.swift */; };
+		B438EFB228ABAA8B00119A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFB128ABAA8B00119A6B /* SceneDelegate.swift */; };
+		B438EFB428ABAA8B00119A6B /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFB328ABAA8B00119A6B /* RecipeViewController.swift */; };
+		B438EFB728ABAA8B00119A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B438EFB528ABAA8B00119A6B /* Main.storyboard */; };
+		B438EFBA28ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B438EFB828ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodeld */; };
+		B438EFBC28ABAA8E00119A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B438EFBB28ABAA8E00119A6B /* Assets.xcassets */; };
+		B438EFBF28ABAA8E00119A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B438EFBD28ABAA8E00119A6B /* LaunchScreen.storyboard */; };
+		B438EFCA28ABAA8E00119A6B /* Vegan_Recipe_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFC928ABAA8E00119A6B /* Vegan_Recipe_AppTests.swift */; };
+		B438EFD428ABAA8E00119A6B /* Vegan_Recipe_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFD328ABAA8E00119A6B /* Vegan_Recipe_AppUITests.swift */; };
+		B438EFD628ABAA8E00119A6B /* Vegan_Recipe_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFD528ABAA8E00119A6B /* Vegan_Recipe_AppUITestsLaunchTests.swift */; };
+		B438EFE728ABACFB00119A6B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFE628ABACFB00119A6B /* Client.swift */; };
+		B438EFE928ABAE9F00119A6B /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438EFE828ABAE9F00119A6B /* RecipeResponse.swift */; };
+		B497BA5328B4EC040016BB67 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497BA5228B4EC040016BB67 /* FavouritesViewController.swift */; };
+		B497BA5528B4EDB90016BB67 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497BA5428B4EDB90016BB67 /* RecipeDetailViewController.swift */; };
+		B497BA5828B4F0500016BB67 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497BA5728B4F0500016BB67 /* RecipeModel.swift */; };
+		B497BA5C28B4F1350016BB67 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497BA5B28B4F1350016BB67 /* FavouritesViewModel.swift */; };
+		B497BA5E28B4F1530016BB67 /* RecipeDisplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497BA5D28B4F1530016BB67 /* RecipeDisplayViewModel.swift */; };
+		B497BA6228BE1FF00016BB67 /* FavouritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497BA6128BE1FF00016BB67 /* FavouritesCell.swift */; };
+		B4A204B12976C7D900BEA5C4 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A204B02976C7D900BEA5C4 /* UIViewController+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B438EFC628ABAA8E00119A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B438EFA428ABAA8B00119A6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B438EFAB28ABAA8B00119A6B;
+			remoteInfo = Vegan_Recipe_App;
+		};
+		B438EFD028ABAA8E00119A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B438EFA428ABAA8B00119A6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B438EFAB28ABAA8B00119A6B;
+			remoteInfo = Vegan_Recipe_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B40904BF2993A7D20016801F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B41F3B3528E5C0DE0038D04F /* CoreDataRecipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataRecipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B41F3B3628E5C0DE0038D04F /* CoreDataRecipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataRecipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B438EFAC28ABAA8B00119A6B /* Vegan_Recipe_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vegan_Recipe_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B438EFAF28ABAA8B00119A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B438EFB128ABAA8B00119A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B438EFB328ABAA8B00119A6B /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		B438EFB628ABAA8B00119A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B438EFB928ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vegan_Recipe_App.xcdatamodel; sourceTree = "<group>"; };
+		B438EFBB28ABAA8E00119A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B438EFBE28ABAA8E00119A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B438EFC028ABAA8E00119A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B438EFC528ABAA8E00119A6B /* Vegan_Recipe_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vegan_Recipe_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B438EFC928ABAA8E00119A6B /* Vegan_Recipe_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_Recipe_AppTests.swift; sourceTree = "<group>"; };
+		B438EFCF28ABAA8E00119A6B /* Vegan_Recipe_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vegan_Recipe_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B438EFD328ABAA8E00119A6B /* Vegan_Recipe_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_Recipe_AppUITests.swift; sourceTree = "<group>"; };
+		B438EFD528ABAA8E00119A6B /* Vegan_Recipe_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_Recipe_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B438EFE628ABACFB00119A6B /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B438EFE828ABAE9F00119A6B /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
+		B497BA5228B4EC040016BB67 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		B497BA5428B4EDB90016BB67 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		B497BA5728B4F0500016BB67 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		B497BA5B28B4F1350016BB67 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
+		B497BA5D28B4F1530016BB67 /* RecipeDisplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDisplayViewModel.swift; sourceTree = "<group>"; };
+		B497BA6128BE1FF00016BB67 /* FavouritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesCell.swift; sourceTree = "<group>"; };
+		B4A204B02976C7D900BEA5C4 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B438EFA928ABAA8B00119A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B438EFC228ABAA8E00119A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B438EFCC28ABAA8E00119A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B438EFA328ABAA8B00119A6B = {
+			isa = PBXGroup;
+			children = (
+				B40904BF2993A7D20016801F /* README.md */,
+				B41F3B3528E5C0DE0038D04F /* CoreDataRecipe+CoreDataClass.swift */,
+				B41F3B3628E5C0DE0038D04F /* CoreDataRecipe+CoreDataProperties.swift */,
+				B438EFAE28ABAA8B00119A6B /* Vegan_Recipe_App */,
+				B438EFC828ABAA8E00119A6B /* Vegan_Recipe_AppTests */,
+				B438EFD228ABAA8E00119A6B /* Vegan_Recipe_AppUITests */,
+				B438EFAD28ABAA8B00119A6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B438EFAD28ABAA8B00119A6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFAC28ABAA8B00119A6B /* Vegan_Recipe_App.app */,
+				B438EFC528ABAA8E00119A6B /* Vegan_Recipe_AppTests.xctest */,
+				B438EFCF28ABAA8E00119A6B /* Vegan_Recipe_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B438EFAE28ABAA8B00119A6B /* Vegan_Recipe_App */ = {
+			isa = PBXGroup;
+			children = (
+				B4A204B02976C7D900BEA5C4 /* UIViewController+Extension.swift */,
+				B497BA5A28B4F06F0016BB67 /* ViewModels */,
+				B497BA5928B4F0560016BB67 /* Views */,
+				B497BA5628B4EFF70016BB67 /* Models */,
+				B438EFE228ABACA000119A6B /* Networking */,
+				B438EFAF28ABAA8B00119A6B /* AppDelegate.swift */,
+				B438EFB128ABAA8B00119A6B /* SceneDelegate.swift */,
+				B438EFB528ABAA8B00119A6B /* Main.storyboard */,
+				B438EFBB28ABAA8E00119A6B /* Assets.xcassets */,
+				B438EFBD28ABAA8E00119A6B /* LaunchScreen.storyboard */,
+				B438EFC028ABAA8E00119A6B /* Info.plist */,
+				B438EFB828ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodeld */,
+			);
+			path = Vegan_Recipe_App;
+			sourceTree = "<group>";
+		};
+		B438EFC828ABAA8E00119A6B /* Vegan_Recipe_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFC928ABAA8E00119A6B /* Vegan_Recipe_AppTests.swift */,
+			);
+			path = Vegan_Recipe_AppTests;
+			sourceTree = "<group>";
+		};
+		B438EFD228ABAA8E00119A6B /* Vegan_Recipe_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFD328ABAA8E00119A6B /* Vegan_Recipe_AppUITests.swift */,
+				B438EFD528ABAA8E00119A6B /* Vegan_Recipe_AppUITestsLaunchTests.swift */,
+			);
+			path = Vegan_Recipe_AppUITests;
+			sourceTree = "<group>";
+		};
+		B438EFE228ABACA000119A6B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFE428ABACC700119A6B /* Responses */,
+				B438EFE328ABACBF00119A6B /* Client */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B438EFE328ABACBF00119A6B /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFE628ABACFB00119A6B /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		B438EFE428ABACC700119A6B /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFE828ABAE9F00119A6B /* RecipeResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		B497BA5628B4EFF70016BB67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B497BA5728B4F0500016BB67 /* RecipeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B497BA5928B4F0560016BB67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B438EFB328ABAA8B00119A6B /* RecipeViewController.swift */,
+				B497BA5228B4EC040016BB67 /* FavouritesViewController.swift */,
+				B497BA5428B4EDB90016BB67 /* RecipeDetailViewController.swift */,
+				B497BA6128BE1FF00016BB67 /* FavouritesCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B497BA5A28B4F06F0016BB67 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B497BA5B28B4F1350016BB67 /* FavouritesViewModel.swift */,
+				B497BA5D28B4F1530016BB67 /* RecipeDisplayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B438EFAB28ABAA8B00119A6B /* Vegan_Recipe_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B438EFD928ABAA8E00119A6B /* Build configuration list for PBXNativeTarget "Vegan_Recipe_App" */;
+			buildPhases = (
+				B438EFA828ABAA8B00119A6B /* Sources */,
+				B438EFA928ABAA8B00119A6B /* Frameworks */,
+				B438EFAA28ABAA8B00119A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vegan_Recipe_App;
+			productName = Vegan_Recipe_App;
+			productReference = B438EFAC28ABAA8B00119A6B /* Vegan_Recipe_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B438EFC428ABAA8E00119A6B /* Vegan_Recipe_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B438EFDC28ABAA8E00119A6B /* Build configuration list for PBXNativeTarget "Vegan_Recipe_AppTests" */;
+			buildPhases = (
+				B438EFC128ABAA8E00119A6B /* Sources */,
+				B438EFC228ABAA8E00119A6B /* Frameworks */,
+				B438EFC328ABAA8E00119A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B438EFC728ABAA8E00119A6B /* PBXTargetDependency */,
+			);
+			name = Vegan_Recipe_AppTests;
+			productName = Vegan_Recipe_AppTests;
+			productReference = B438EFC528ABAA8E00119A6B /* Vegan_Recipe_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B438EFCE28ABAA8E00119A6B /* Vegan_Recipe_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B438EFDF28ABAA8E00119A6B /* Build configuration list for PBXNativeTarget "Vegan_Recipe_AppUITests" */;
+			buildPhases = (
+				B438EFCB28ABAA8E00119A6B /* Sources */,
+				B438EFCC28ABAA8E00119A6B /* Frameworks */,
+				B438EFCD28ABAA8E00119A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B438EFD128ABAA8E00119A6B /* PBXTargetDependency */,
+			);
+			name = Vegan_Recipe_AppUITests;
+			productName = Vegan_Recipe_AppUITests;
+			productReference = B438EFCF28ABAA8E00119A6B /* Vegan_Recipe_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B438EFA428ABAA8B00119A6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B438EFAB28ABAA8B00119A6B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B438EFC428ABAA8E00119A6B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B438EFAB28ABAA8B00119A6B;
+					};
+					B438EFCE28ABAA8E00119A6B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B438EFAB28ABAA8B00119A6B;
+					};
+				};
+			};
+			buildConfigurationList = B438EFA728ABAA8B00119A6B /* Build configuration list for PBXProject "Vegan_Recipe_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B438EFA328ABAA8B00119A6B;
+			productRefGroup = B438EFAD28ABAA8B00119A6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B438EFAB28ABAA8B00119A6B /* Vegan_Recipe_App */,
+				B438EFC428ABAA8E00119A6B /* Vegan_Recipe_AppTests */,
+				B438EFCE28ABAA8E00119A6B /* Vegan_Recipe_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B438EFAA28ABAA8B00119A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B438EFBF28ABAA8E00119A6B /* LaunchScreen.storyboard in Resources */,
+				B438EFBC28ABAA8E00119A6B /* Assets.xcassets in Resources */,
+				B438EFB728ABAA8B00119A6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B438EFC328ABAA8E00119A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B438EFCD28ABAA8E00119A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B438EFA828ABAA8B00119A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B497BA5C28B4F1350016BB67 /* FavouritesViewModel.swift in Sources */,
+				B438EFB428ABAA8B00119A6B /* RecipeViewController.swift in Sources */,
+				B438EFBA28ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodeld in Sources */,
+				B4A204B12976C7D900BEA5C4 /* UIViewController+Extension.swift in Sources */,
+				B497BA5528B4EDB90016BB67 /* RecipeDetailViewController.swift in Sources */,
+				B438EFE928ABAE9F00119A6B /* RecipeResponse.swift in Sources */,
+				B438EFB028ABAA8B00119A6B /* AppDelegate.swift in Sources */,
+				B438EFE728ABACFB00119A6B /* Client.swift in Sources */,
+				B497BA5328B4EC040016BB67 /* FavouritesViewController.swift in Sources */,
+				B497BA5E28B4F1530016BB67 /* RecipeDisplayViewModel.swift in Sources */,
+				B438EFB228ABAA8B00119A6B /* SceneDelegate.swift in Sources */,
+				B41F3B3828E5C0DE0038D04F /* CoreDataRecipe+CoreDataProperties.swift in Sources */,
+				B497BA5828B4F0500016BB67 /* RecipeModel.swift in Sources */,
+				B497BA6228BE1FF00016BB67 /* FavouritesCell.swift in Sources */,
+				B41F3B3728E5C0DE0038D04F /* CoreDataRecipe+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B438EFC128ABAA8E00119A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B438EFCA28ABAA8E00119A6B /* Vegan_Recipe_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B438EFCB28ABAA8E00119A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B438EFD628ABAA8E00119A6B /* Vegan_Recipe_AppUITestsLaunchTests.swift in Sources */,
+				B438EFD428ABAA8E00119A6B /* Vegan_Recipe_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B438EFC728ABAA8E00119A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B438EFAB28ABAA8B00119A6B /* Vegan_Recipe_App */;
+			targetProxy = B438EFC628ABAA8E00119A6B /* PBXContainerItemProxy */;
+		};
+		B438EFD128ABAA8E00119A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B438EFAB28ABAA8B00119A6B /* Vegan_Recipe_App */;
+			targetProxy = B438EFD028ABAA8E00119A6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B438EFB528ABAA8B00119A6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B438EFB628ABAA8B00119A6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B438EFBD28ABAA8E00119A6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B438EFBE28ABAA8E00119A6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B438EFD728ABAA8E00119A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B438EFD828ABAA8E00119A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B438EFDA28ABAA8E00119A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vegan_Recipe_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.jandre.Vegan-Recipe-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B438EFDB28ABAA8E00119A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vegan_Recipe_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.jandre.Vegan-Recipe-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B438EFDD28ABAA8E00119A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.jandre.Vegan-Recipe-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegan_Recipe_App.app/Vegan_Recipe_App";
+			};
+			name = Debug;
+		};
+		B438EFDE28ABAA8E00119A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.jandre.Vegan-Recipe-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegan_Recipe_App.app/Vegan_Recipe_App";
+			};
+			name = Release;
+		};
+		B438EFE028ABAA8E00119A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.jandre.Vegan-Recipe-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vegan_Recipe_App;
+			};
+			name = Debug;
+		};
+		B438EFE128ABAA8E00119A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.jandre.Vegan-Recipe-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vegan_Recipe_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B438EFA728ABAA8B00119A6B /* Build configuration list for PBXProject "Vegan_Recipe_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B438EFD728ABAA8E00119A6B /* Debug */,
+				B438EFD828ABAA8E00119A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B438EFD928ABAA8E00119A6B /* Build configuration list for PBXNativeTarget "Vegan_Recipe_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B438EFDA28ABAA8E00119A6B /* Debug */,
+				B438EFDB28ABAA8E00119A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B438EFDC28ABAA8E00119A6B /* Build configuration list for PBXNativeTarget "Vegan_Recipe_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B438EFDD28ABAA8E00119A6B /* Debug */,
+				B438EFDE28ABAA8E00119A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B438EFDF28ABAA8E00119A6B /* Build configuration list for PBXNativeTarget "Vegan_Recipe_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B438EFE028ABAA8E00119A6B /* Debug */,
+				B438EFE128ABAA8E00119A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B438EFB828ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B438EFB928ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodel */,
+			);
+			currentVersion = B438EFB928ABAA8B00119A6B /* Vegan_Recipe_App.xcdatamodel */;
+			path = Vegan_Recipe_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B438EFA428ABAA8B00119A6B /* Project object */;
+}
